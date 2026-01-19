@@ -8,7 +8,7 @@ from tensorflow.keras.applications.efficientnet_v2 import preprocess_input
 # =========================
 # CONFIG
 # =========================
-MODEL_PATH = r"C:\Users\himan\OneDrive\Desktop\Plant_disease\models\tomato_efficientnet_model.keras"
+MODEL_PATH = "models/tomato_efficientnet_model.keras"
 IMG_SIZE = (224, 224)
 
 CLASS_NAMES = [
